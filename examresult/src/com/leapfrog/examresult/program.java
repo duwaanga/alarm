@@ -24,27 +24,27 @@ public class program {
         System.out.println("Enter your Symbol no:");
         String symbol=input.next();
         
-        System.out.println("Enter the Cmaths marks:");
-        double Cmaths=input.nextDouble();
-        System.out.println("Enter the Optmaths marks:");
-        double Optmaths=input.nextDouble();
-        System.out.println("Enter the Science marks:");
-        double Science=input.nextDouble();
+        System.out.println("Enter the Data Structute marks:");
+        double Datastructure=input.nextDouble();
+        System.out.println("Enter the Discrete Mathematics marks:");
+        double Discretemathematics=input.nextDouble();
+        System.out.println("Enter the Numericals Methods marks:");
+        double Numericalsmethods=input.nextDouble();
         
-        System.out.println("Enter the English marks:");
-        double English=input.nextDouble();
-        System.out.println("Enter the Nepali marks:");
-        double Nepali=input.nextDouble();
+        System.out.println("Enter the Electrical Machine marks:");
+        double Electricalmachine=input.nextDouble();
+        System.out.println("Enter the Applied Mathematics:");
+        double Appliedmathematics=input.nextDouble();
         
         double percentage=0;
         
-        if(Cmaths<32 || Optmaths<32 || Science<32 || English<32 || Nepali<32 )
+        if(Datastructure<32 || Discretemathematics<32 || Numericalsmethods<32 || Electricalmachine<32 || Appliedmathematics<32 )
         {
             
         System.out.println("You are fail");
         }
         else{
-            percentage=((Cmath|+Optmaths+Science+English+Nepalali)/500)*100;
+            percentage=((Datastructure|+Discretematheatics+Numericalsmethods+Electricalmachine+Appliedmathematics)/500)*100;
         }
             if (percentage>=80){
                 grade="Distinction";
